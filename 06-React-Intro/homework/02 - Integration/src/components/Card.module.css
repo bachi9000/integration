@@ -1,0 +1,45 @@
+.contenedor {
+    position: relative;
+    width: 300px; 
+    height: 380px; 
+    margin: 10px;
+  }
+ 
+  .iam{
+    position: absolute;
+  }
+  img{
+    width: 300px;
+    height: 320px;
+  }
+  .texto {
+    position: absolute;
+    color: black;
+    text-align: center;
+    height: 20px;
+    width: 160px;
+    bottom: 15%;
+    background-color: yellow;
+    background-position: bottom 10px;
+    justify-content: center;
+    font-weight: bold;
+    left: 5%;
+  }
+  .boton{
+    position: absolute;
+    background: red;
+    right: 0%;
+  }
+  .info{
+    position: absolute;
+    bottom: 0%;
+    height: 60px;
+    background-color: white;
+    
+    flex-basis: 50%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .alto{
+    line-height: 10%;
+  }
